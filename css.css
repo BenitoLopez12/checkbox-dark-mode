@@ -317,3 +317,9 @@ input[type="checkbox"]{
     transform: scale(1.2);
     transition-delay: calc(var(--delay-stars) + 1.2s);
 }
+
+@media(max-width: 600px){
+    .box-check{
+        zoom: 60%;
+    }
+}
