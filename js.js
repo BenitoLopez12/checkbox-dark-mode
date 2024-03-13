@@ -14,10 +14,10 @@ input.addEventListener('change', (e) => {
     }
 });
 
-setInterval(() => {
-    document.querySelector('.box-check').classList.toggle('dark');
-    document.querySelector('.content-main').classList.toggle('dark-mode');
-}, 2000);
+// setInterval(() => {
+//     document.querySelector('.box-check').classList.toggle('dark');
+//     document.querySelector('.content-main').classList.toggle('dark-mode');
+// }, 2000);
 
 document.addEventListener('DOMContentLoaded', ()=>{
     let contentStars = document.querySelector('.content-stars');
